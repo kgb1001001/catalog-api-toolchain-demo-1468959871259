@@ -154,7 +154,7 @@ exports.remove =  function(req, res) {
 
 //calculate the fibonacci of 20.
 var fib = function(n) {
-    if (n < 3) {
+    if (n < 2) {
         return 1;
     }
     return fib(n - 2) + fib(n - 1);
